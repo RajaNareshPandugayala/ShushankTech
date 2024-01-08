@@ -344,6 +344,7 @@ a:hover {
     justify-content: start;
     margin-top: 150px;
     gap: 50px;
+    flex-wrap: wrap;
     /* border: 1px solid red; */
 }
 
@@ -883,6 +884,11 @@ a:hover {
     gap: 80px;
     /* flex-wrap: wrap; */
     padding: 60px;
+    /* border: 1px solid red; */
+}
+
+.box07_boxs-content {
+    flex-wrap: wrap;
 }
 
 .box07_boxs-contentA {
@@ -990,9 +996,17 @@ a:hover {
     justify-content: space-between;
     padding: 20px 0;
     width: 100%;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
 }
 
+/* .footer_box_content_child1 {
+    flex-wrap: wrap;
+    border: 1px solid red;
+} */
+
 .footer_box_content_child2 {
+    align-items: center;
     padding-top: 100px;
 }
 
@@ -1012,7 +1026,6 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     gap: 35px;
-    /* border: 1px solid red; */
 }
 
 .footer_box_content1_list_heading {
@@ -1261,3 +1274,18 @@ button {
 /***********************************box02_contactUs-End**********************************/
 
 /*##################################ContactUs_Css-End##################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1310px) {}
