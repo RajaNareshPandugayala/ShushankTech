@@ -201,7 +201,8 @@ a:hover {
 /***************************Header-Start******************************/
 
 .sticky {
-    background-color: #0a2023;
+    /* background-color: #0a2023; */
+    background-color: #55BBDB;
     position: fixed;
     top: 0;
     left: 0;
@@ -211,16 +212,20 @@ a:hover {
     animation: fadeInDown 0.3s linear alternate;
     /* border: 2px solid red; */
     padding: 10px 0;
+    /* color: black; */
 }
 
 #sticky-header {
     padding: 10px 0;
     box-shadow: 0px 0px 10px 1px gray;
+    background-color: #55BBDB;
+    /* color: black; */
 }
 
 .header_boxs-content {
     justify-content: space-between;
     /* border: 1px solid green; */
+    /* color: black; */
 }
 
 .header_logotext {
@@ -239,7 +244,8 @@ a:hover {
     font-weight: bold;
     width: 40px;
     height: 40px;
-    background-color: #e74c3c;
+    /* background-color: #e74c3c; */
+    background-color: #6D6BEC;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     letter-spacing: -4px;
@@ -251,6 +257,7 @@ a:hover {
     font-weight: bold;
     letter-spacing: 0.5px;
     /* border: 1px solid red; */
+    color: black;
 }
 
 
@@ -260,7 +267,12 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 650px;
+    /* color: black; */
     /* border: 2px solid red; */
+}
+
+.header_main-menu_ul a {
+    color: black;
 }
 
 
@@ -271,6 +283,7 @@ a:hover {
     justify-content: center;
     /* border: 1px solid red; */
     width: 100px;
+    /* color: black; */
 }
 
 .header_sub-menu_ul {
@@ -280,10 +293,12 @@ a:hover {
     display: none;
     position: absolute;
     z-index: 998;
+    /* color: black; */
 }
 
 .header_sub-menu_ul:hover {
     display: block;
+    /* color: black; */
 }
 
 
@@ -292,17 +307,20 @@ a:hover {
     align-items: center;
     justify-content: center;
     padding: 12px 35px;
-    background-color: #e74c3c;
+    /* background-color: #e74c3c; */
+    background-color: #6D6BEC;
     color: whitesmoke;
     border-radius: 0.75cm;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     font-weight: bold;
+    /* color: black; */
 }
 
 /* Add animation on hover */
 .box_button:hover {
     cursor: pointer;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color: #ADABFF;
     color: black;
     transition: background-color 0.3s ease, color 0.3s ease;
     /* Specify different easing functions for opacity and transform */
@@ -312,7 +330,8 @@ a:hover {
 /***************************Header-Ebd******************************/
 /***********************************Box01_Css-Start**********************************/
 .box01 {
-    background-image: url(box01_bg_image3.jpg);
+    /* background-image: url(box01_bg_image3.jpg); */
+    background-image: linear-gradient(to bottom, transparent, #000000), url(box01_bg_image3.jpg);
     background-position: center;
     background-size: cover;
     flex-direction: column;
@@ -320,13 +339,26 @@ a:hover {
 }
 
 .box01_boxs-contentA {
-    flex-direction: column;
-    align-items: start;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
     margin-top: 150px;
+    gap: 50px;
     /* border: 1px solid red; */
 }
 
-.box01_boxs-contentA_child {
+.box01_boxs-contentA_child_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 400px;
+    border-radius: 0.5cm;
+    background-color: #0a2023;
+    /* border: 1px solid red; */
+}
+
+.box01_boxs-contentA_child_right {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -343,7 +375,7 @@ a:hover {
 
 .box01_boxs-contentB {
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     margin-bottom: 50px;
     gap: 20px;
 }
@@ -376,7 +408,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 20px;
+    gap: 75px;
     flex-wrap: wrap;
 }
 
@@ -403,7 +435,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 220px;
     /* border: 1px solid red; */
 }
 
@@ -711,6 +743,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     /* flex-wrap: wrap; */
+    margin-top: 100px;
 }
 
 .box05_boxs-contentA {
@@ -1034,7 +1067,8 @@ a:hover {
     font-weight: bold;
     width: 40px;
     height: 40px;
-    background-color: #e74c3c;
+    /* background-color: #e74c3c; */
+    background-color: #6D6BEC;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     letter-spacing: -4px;
@@ -1056,10 +1090,15 @@ a:hover {
 /*##################################ContactUs_Css-Start##################################*/
 
 /***********************************box01_contactUs-Start**********************************/
+
+
 .box01_contactUs {
+    overflow: hidden;
+    display: flex;
     background-image: url(box02_contactUs_bg_image2.webp);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box01_contactUs_text {
@@ -1068,9 +1107,42 @@ a:hover {
     margin: 200px 0;
 }
 
+
+
+
+
+
+
+
+
+
+.box01_contactUsB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box01_contactUsB_child {
+    overflow: hidden;
+    /* padding: 0 50px; */
+    margin: 50px 0;
+    gap: 40px;
+    /* width: 1200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box01_contactUsB_child img {
+    width: 750px;
+    height: 450px;
+}
+
 /***********************************box01_contactUs-End**********************************/
 
 /***********************************box02_contactUs-Start**********************************/
+
 
 .box02_box_contactUs {
     gap: 20px;
@@ -1166,7 +1238,7 @@ button {
     padding: 30px;
     gap: 30px;
     border-radius: 0.25cm;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* border: 1px solid red; */
 }
 

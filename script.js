@@ -43,12 +43,17 @@ const box01 = document.querySelector('.box01');
 const leftArrowButton = document.querySelector('.left_arrow_button');
 const rightArrowButton = document.querySelector('.right_arrow_button');
 let currentImageIndex = 1;
-const totalImages = 3;
+const totalImages = 5;
 let intervalId;
 
 function changeBackgroundImage(offset) {
     currentImageIndex = (currentImageIndex + offset + totalImages - 1) % totalImages + 1;
-    box01.style.backgroundImage = `url(box01_bg_image${currentImageIndex}.jpg)`;
+    // box01.style.backgroundImage = `url(box01_bg_image${currentImageIndex}.jpg)`;
+    const imageUrl = `url(box01_bg_image${currentImageIndex}.jpg)`;
+    // const gradient = 'linear-gradient(to left, transparent, #000000)';
+    // const gradient = 'linear-gradient(to left, transparent, #ADABFF)';
+    const gradient = 'linear-gradient(to left, transparent, #1c4449)';
+    box01.style.backgroundImage = `${gradient}, ${imageUrl}`;
 }
 
 function updateImageAndRestartInterval(offset) {
