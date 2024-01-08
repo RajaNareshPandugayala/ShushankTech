@@ -331,7 +331,7 @@ a:hover {
 /***********************************Box01_Css-Start**********************************/
 .box01 {
     /* background-image: url(box01_bg_image3.jpg); */
-    background-image: linear-gradient(to bottom, transparent, #000000), url(box01_bg_image3.jpg);
+    background-image: linear-gradient(to bottom, transparent, #000000), url(box01_bg_image4.jpg);
     background-position: center;
     background-size: cover;
     flex-direction: column;
@@ -341,7 +341,7 @@ a:hover {
 .box01_boxs-contentA {
     /* flex-direction: column; */
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     margin-top: 150px;
     gap: 50px;
     /* border: 1px solid red; */
@@ -351,7 +351,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 230px;
+    width: 245px;
     height: 400px;
     border-radius: 0.5cm;
     background-color: #0a2023;
@@ -375,7 +375,7 @@ a:hover {
 
 .box01_boxs-contentB {
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     margin-bottom: 50px;
     gap: 20px;
 }
@@ -407,16 +407,17 @@ a:hover {
 .box01_content_05 {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     gap: 75px;
     flex-wrap: wrap;
+    /* border: 1px solid green; */
 }
 
 .box01_content_05A,
 .box01_content_05B {
     display: flex;
     align-items: start;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
     gap: 10px;
     width: 220px;
@@ -435,7 +436,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 220px;
+    gap: 200px;
     /* border: 1px solid red; */
 }
 
