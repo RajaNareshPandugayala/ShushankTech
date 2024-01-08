@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    /* border: 1px solid yellowgreen; */
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     background-color: #0a2023;
     color: whitesmoke;
     scroll-behavior: smooth;
+    /* border: 1px solid red; */
 }
 
 .hidden {
@@ -328,6 +329,7 @@ a:hover {
 .box01_hr {
     margin: 50px 0;
     width: 100%;
+    border: 1px solid gray;
 }
 
 .box01_boxs-contentB {
@@ -530,7 +532,6 @@ a:hover {
     justify-content: end;
     border-radius: 0 0.25cm 0.25cm 0;
     margin-top: 100px;
-    /* margin-bottom: 50px; */
     width: 50%;
 }
 
@@ -727,6 +728,7 @@ a:hover {
 .box05_hr {
     margin-top: 30px;
     width: 100%;
+    border: 1px solid gray;
 }
 
 .box05_content_04 {
@@ -900,8 +902,8 @@ a:hover {
     flex-direction: column;
     background-color: #1c4449;
     color: antiquewhite;
-    padding: 100px 20px 20px 20px;
-    /* border: 2px solid #0A4FD5; */
+    padding: 100px 0px 20px 0px;
+    /* border: 1px solid red; */
 }
 
 .footer_box_content {
@@ -927,6 +929,7 @@ a:hover {
 
 .footer_box_content_hr {
     width: 100%;
+    border: 1px solid gray;
 }
 
 
