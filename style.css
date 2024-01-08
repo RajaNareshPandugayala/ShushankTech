@@ -275,6 +275,9 @@ a:hover {
     color: black;
 }
 
+.header_main-menu_ul a:hover {
+    color: #e74c3c;
+}
 
 .header_main-menu_ul li {
     list-style-type: none;
@@ -1038,6 +1041,10 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     gap: 15px;
+}
+
+.footer_box_content1_list_text a {
+    font-weight: normal;
 }
 
 .footer_box_content1_list_text5 {
