@@ -1052,3 +1052,139 @@ a:hover {
 }
 
 /***********************************footer_Css-End**********************************/
+
+/*##################################ContactUs_Css-Start##################################*/
+
+/***********************************box01_contactUs-Start**********************************/
+.box01_contactUs {
+    background-image: url(box02_contactUs_bg_image2.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box01_contactUs_text {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 200px 0;
+}
+
+/***********************************box01_contactUs-End**********************************/
+
+/***********************************box02_contactUs-Start**********************************/
+
+.box02_box_contactUs {
+    gap: 20px;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.box02_left_contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #cbeffb;
+    color: black;
+    padding: 40px;
+    border-radius: 0.25cm;
+    width: 550px;
+}
+
+.box02_left_contactUs h1 {
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+
+.box02_left_contactUs input,
+textarea {
+    margin-bottom: 40px;
+    background-color: #cbeffb;
+    border: 1px solid transparent;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 10px;
+}
+
+.box02_left_contactUs input:focus,
+textarea:focus {
+    border-bottom: 1px solid blue;
+    outline: none;
+}
+
+.box02_left_contactUs label {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    border: 1px solid transparent;
+    font-size: 18px;
+}
+
+
+.box02_right_contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    width: 650px;
+    /* padding-left: 50px; */
+    padding-left: 50px;
+    /* border: 1px solid red; */
+}
+
+.box02_right_contactUs_02 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.box02_right_contactUs_02span {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.box02_right_contactUs_03 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box02_right_contactUs_03A,
+.box02_right_contactUs_03B {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #cbeffb;
+    color: black;
+    width: 250px;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 0.25cm;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+.box02_right_contactUs_03_image img {
+    width: 50px;
+}
+
+.box02_right_contactUs_03_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.para_b {
+    font-weight: bold;
+    color: #0A4FD5;
+}
+
+/***********************************box02_contactUs-End**********************************/
+
+/*##################################ContactUs_Css-End##################################*/

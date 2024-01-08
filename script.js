@@ -140,3 +140,21 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 /********************************************************************************************* */
+
+
+
+function updateSubjectContactUs() {
+    var textareaValue = document.getElementById("textarea").value;
+    var messageField = document.getElementById("message");
+    messageField.value = textareaValue;
+    var nameValue = document.getElementById("name").value;
+    var subjectField = document.getElementById("subject");
+    subjectField.value = "Contact Us - " + nameValue;
+
+
+    alert("Your request has been sent successfully!")
+
+    var currentUrl = window.location.href;
+    document.getElementsByName('_next')[0].value = currentUrl;
+    // window.location.reload()
+}
