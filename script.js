@@ -43,7 +43,7 @@ const box01 = document.querySelector('.box01');
 const leftArrowButton = document.querySelector('.left_arrow_button');
 const rightArrowButton = document.querySelector('.right_arrow_button');
 let currentImageIndex = 1;
-const totalImages = 5;
+const totalImages = 6;
 let intervalId;
 
 function changeBackgroundImage(offset) {
