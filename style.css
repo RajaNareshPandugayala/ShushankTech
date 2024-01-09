@@ -1310,7 +1310,7 @@ button {
     }
 
     .header_main-menu_ul {
-        width: 680px;
+        width: 100%;
         justify-content: space-between;
     }
 
@@ -1402,7 +1402,10 @@ button {
         margin: 0;
     }
 
-    .box07_boxs-contentA,
+    .box07_boxs-contentA {
+        width: 680px;
+    }
+
     .box07_boxs-contentB {
         width: 680px;
         text-align: center;
@@ -1441,3 +1444,7 @@ button {
     }
 
 }
+
+
+
+@media screen and (max-width: 1110px) {}
