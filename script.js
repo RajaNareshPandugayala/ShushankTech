@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
 window.onscroll = function () { stickyHeader() };
 
 function stickyHeader() {
@@ -38,22 +37,68 @@ function stickyHeader() {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    var menuButton = document.getElementById("menubtn");
+    var closeButton = document.getElementById("closebtn");
+    var menuList = document.querySelector(".header_main-menu_ul01");
+    var menuListAs = document.querySelectorAll(".header_main-menu_ul-li01-a");
+
+    menuList.style.display = "none";
+
+    menuButton.addEventListener("click", function () {
+        menuList.style.display = "block";
+        menuButton.style.display = "none";
+        closeButton.style.display = "inline-block";
+    });
+
+    closeButton.addEventListener("click", function () {
+        menuList.style.display = "none";
+        menuButton.style.display = "inline-block";
+        closeButton.style.display = "none";
+    });
+
+
+    // Event listener for the a button
+    // Loop through each anchor element and add event listener
+    menuListAs.forEach(function (menuListA) {
+        menuListA.addEventListener("click", function () {
+            menuList.style.display = "none";
+            menuButton.style.display = "inline-block";
+            closeButton.style.display = "none";
+        });
+    });
+
+
+});
+
+
+
+
+
+
+
+
 
 const box01 = document.querySelector('.box01');
-const leftArrowButton = document.querySelector('.left_arrow_button');
-const rightArrowButton = document.querySelector('.right_arrow_button');
+const buttons = document.querySelectorAll('.span_button');
+const arrows = document.querySelectorAll('.arrow_button');
 let currentImageIndex = 1;
-const totalImages = 6;
+const totalImages = 3;
 let intervalId;
 
 function changeBackgroundImage(offset) {
     currentImageIndex = (currentImageIndex + offset + totalImages - 1) % totalImages + 1;
-    // box01.style.backgroundImage = `url(box01_bg_image${currentImageIndex}.jpg)`;
+    setBoxBackgroundImage();
+}
+
+function setBoxBackgroundImage() {
     const imageUrl = `url(box01_bg_image${currentImageIndex}.jpg)`;
-    // const gradient = 'linear-gradient(to left, transparent, #000000)';
-    // const gradient = 'linear-gradient(to left, transparent, #ADABFF)';
-    const gradient = 'linear-gradient(to left, transparent, #1c4449)';
+    const gradient = 'linear-gradient(140deg, #a8a8a8, transparent 50%)';
     box01.style.backgroundImage = `${gradient}, ${imageUrl}`;
+
+    buttons.forEach((button, index) => {
+        button.style.backgroundColor = index + 1 === currentImageIndex ? 'white' : 'gray';
+    });
 }
 
 function updateImageAndRestartInterval(offset) {
@@ -65,15 +110,23 @@ function updateImageAndRestartInterval(offset) {
 changeBackgroundImage(0);
 intervalId = setInterval(() => changeBackgroundImage(1), 3000);
 
-leftArrowButton.addEventListener('click', (event) => {
-    event.preventDefault();
-    updateImageAndRestartInterval(-1);
+buttons.forEach((button, index) => {
+    button.addEventListener('click', (event) => {
+        event.preventDefault();
+        currentImageIndex = index + 1;
+        setBoxBackgroundImage();
+    });
 });
 
-rightArrowButton.addEventListener('click', (event) => {
-    event.preventDefault();
-    updateImageAndRestartInterval(1);
+arrows.forEach((arrow, offset) => {
+    arrow.addEventListener('click', (event) => {
+        event.preventDefault();
+        updateImageAndRestartInterval(offset === 0 ? -1 : 1);
+    });
 });
+
+
+
 
 
 /********************************************************************************************* */
