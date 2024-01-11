@@ -99,7 +99,8 @@ function setBoxBackgroundImage() {
     // const gradient = 'linear-gradient(135deg, #ffabab, transparent 40%)';
     // const gradient = 'linear-gradient(135deg,  #ffabab,transparent 50%, #bb61ff)';
     // const gradient = 'linear-gradient(135deg, #ba99ff, transparent 50%, #8bfaeb)';
-    const gradient = 'linear-gradient(135deg, #ba99ff,transparent 50%, #abd8ff)';
+    // const gradient = 'linear-gradient(135deg, #ba99ff,transparent 50%, #abd8ff)';
+    const gradient = 'linear-gradient(135deg, #1a59c880 20%, transparent)';
     box01.style.backgroundImage = `${gradient}, ${imageUrl}`;
 
     buttons.forEach((button, index) => {
