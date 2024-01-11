@@ -92,8 +92,14 @@ function changeBackgroundImage(offset) {
 }
 
 function setBoxBackgroundImage() {
+    //https://www.microsoft.com/en-us/edge/update/year-in-review?form=MT00LC
     const imageUrl = `url(box01_bg_image${currentImageIndex}.jpg)`;
-    const gradient = 'linear-gradient(140deg, #a8a8a8, transparent 50%)';
+    // const gradient = 'linear-gradient(135deg, #a8a8a8, transparent 40%)';
+    // const gradient = 'linear-gradient(130deg, #bb61ff, transparent 40%)';
+    // const gradient = 'linear-gradient(135deg, #ffabab, transparent 40%)';
+    // const gradient = 'linear-gradient(135deg,  #ffabab,transparent 50%, #bb61ff)';
+    // const gradient = 'linear-gradient(135deg, #ba99ff, transparent 50%, #8bfaeb)';
+    const gradient = 'linear-gradient(135deg, #ba99ff,transparent 50%, #abd8ff)';
     box01.style.backgroundImage = `${gradient}, ${imageUrl}`;
 
     buttons.forEach((button, index) => {

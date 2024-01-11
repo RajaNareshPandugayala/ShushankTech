@@ -233,6 +233,7 @@ a:hover {
     /* background-color: #0033e7; */
     /* background-color: #4831D4; */
     background-color: #504EB4;
+    background: linear-gradient(165deg, #2832d4, #bb61ff);
     /* color: black; */
 }
 
@@ -376,10 +377,12 @@ a:hover {
     justify-content: center;
     width: 230px;
     height: 230px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* background-color: #0a2023; */
+    /* background: linear-gradient(130deg, #ffabab, transparent 50%, #bb61ff); */
     /* border: 1px solid red; */
 }
+
 
 .box01_boxs-contentA_child_right {
     display: flex;
@@ -475,6 +478,15 @@ a:hover {
 /***********************************Box01_Css-End**********************************/
 
 /***********************************Box02_Css-Start**********************************/
+
+.box02 {
+    /* background-color: red; */
+    /* background: linear-gradient(130deg, #ba99ff, #abd8ff 50%, #8bfaeb); */
+    /* background: linear-gradient(135deg, #ffabab, #bb61ff 50%); */
+    /* background: linear-gradient(135deg, #ed7077, #2832d4 50%, #9a34e7); */
+    background: linear-gradient(135deg, #2832d4, #9a34e7 35%, #2832d4, #9a34e7 85%, #2832d4);
+    /* background-color: #0a2023; */
+}
 
 .box02_boxs-content {
     flex-direction: column;
@@ -603,8 +615,13 @@ a:hover {
 .box03 {
     align-items: center;
     justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
     /* gap: 50px; */
     /* flex-wrap: wrap; */
+    /* background: linear-gradient(135deg, #7209d4 40%, #2832d4 30%, #00a5b2); */
+    background: linear-gradient(145deg, #9a34e7, #2832d4, #9a34e7 40%, #2832d4 30%, #2832d4, #2832d4, #ed7077);
+    /* background: linear-gradient(135deg, #ed7077, #2832d4 30%, #9a34e7); */
 }
 
 .box03_boxs-contentA {
@@ -615,7 +632,6 @@ a:hover {
     align-items: end;
     justify-content: end;
     border-radius: 0 0.25cm 0.25cm 0;
-    margin-top: 100px;
     width: 50%;
 }
 
@@ -772,7 +788,8 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     /* flex-wrap: wrap; */
-    margin-top: 100px;
+    padding-top: 100px;
+    background: linear-gradient(215deg, #ed7077, #2832d4, #9a34e7 40%, #2832d4 30%, #9a34e7);
 }
 
 .box05_boxs-contentA {
@@ -856,12 +873,14 @@ a:hover {
     gap: 50px;
     /* flex-wrap: wrap; */
     padding: 60px;
+    background: linear-gradient(150deg, #9a34e7 10%, #2832d4, #2832d4, #9a34e7 85%);
 }
 
 .box06_boxs-content {
     align-items: center;
     justify-content: space-between;
     background-color: #1c4449;
+    background: linear-gradient(215deg, #ed7077, #2832d4, #9a34e7 40%, #2832d4 30%, #2832d4, #ed7077);
     border-radius: 0.25cm;
     gap: 20px;
     padding-left: 50px;
@@ -911,6 +930,7 @@ a:hover {
     gap: 80px;
     /* flex-wrap: wrap; */
     padding: 60px;
+    background: linear-gradient(205deg, #9a34e7 10%, #2832d4, #9a34e7 85%);
     /* border: 1px solid red; */
 }
 
@@ -986,6 +1006,7 @@ a:hover {
     padding: 20px;
     width: 100%;
     border-radius: 0.25cm 0.25cm 0 0;
+    background: linear-gradient(135deg, #6f6dce 60%, #bb61ff);
 }
 
 .box07_content {
@@ -996,6 +1017,7 @@ a:hover {
 
 .box07_content-button.maximized {
     background-color: #e74c3c;
+    background: linear-gradient(45deg, #bb61ff 60%, #6f6dce);
 }
 
 /***********************************Box07_Css-End**********************************/
@@ -1008,6 +1030,7 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     background-color: #1c4449;
+    background: linear-gradient(135deg, transparent, #9a34e7, transparent, transparent 40%, transparent, #9a34e7, transparent);
     color: antiquewhite;
     padding: 100px 0px 20px 0px;
     /* border: 1px solid red; */
