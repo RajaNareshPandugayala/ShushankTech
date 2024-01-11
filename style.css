@@ -1206,7 +1206,9 @@ a:hover {
 /***********************************box01_contactUs-End**********************************/
 
 /***********************************box02_contactUs-Start**********************************/
-
+.box02_contactUs {
+    background: linear-gradient(130deg, #ed7077, #2832d4, #9a34e7 40%, #2832d4 30%, #2832d4, #ed7077);
+}
 
 .box02_box_contactUs {
     gap: 20px;
@@ -1642,4 +1644,72 @@ button {
     #get_started_button {
         display: none;
     }
+
+    .box03_boxs-contentA img,
+    .box05_boxs-contentB img {
+        width: 100%;
+        margin: 300px 40px 60px 40px;
+    }
+
+    .box07_boxs-contentA img {
+        width: 150px;
+        margin: 0px 0px 200px 0px;
+        right: -50px;
+    }
+
+}
+
+
+@media screen and (max-width: 410px) {
+
+    /* * {
+        border: 1px solid green;
+    } */
+
+    .box02_right_contactUs_03A,
+    .box02_right_contactUs_03B {
+        width: 100%;
+    }
+
+    .footer_box_content1_list5 {
+        width: 100%;
+    }
+
+    .footer_box_content1_list_text5 {
+        padding: 30px 35px;
+        width: 100%;
+    }
+
+    .box01_contactUs_text {
+        font-size: 50px;
+        font-weight: bold;
+        margin: 150px 0;
+    }
+
+    .box02_left_contactUs {
+        padding: 30px 20px;
+    }
+
+    .box02_left_contactUs h1 {
+        padding-bottom: 0px;
+        font-size: 28px;
+    }
+
+    .box02_left_contactUs label {
+        padding-bottom: 0px;
+    }
+
+    .box02_right_contactUs_03A,
+    .box02_right_contactUs_03B {
+        padding: 20px 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 310px) {
+
+    /* * {
+        border: 1px solid green;
+    } */
 }
