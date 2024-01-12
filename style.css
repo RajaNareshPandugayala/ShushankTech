@@ -201,6 +201,30 @@ a:hover {
 
 /***********************************Common_box-End**********************************/
 /***************************Header-Start******************************/
+@keyframes fadeSkewM {
+    from {
+        opacity: 0;
+        transform: rotateZ(180deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes fadeSkewX {
+    from {
+        opacity: 0;
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateZ(180deg);
+    }
+}
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -212,7 +236,6 @@ a:hover {
         transform: translateY(0);
     }
 }
-
 
 .sticky {
     position: fixed;
@@ -1086,11 +1109,6 @@ a:hover {
 
 .footer_box_content_child2 {
     align-items: center;
-    padding-top: 100px;
-}
-
-.footer_box_content_child3 {
-    padding-bottom: 0px;
 }
 
 .footer_box_content_hr {
@@ -1643,14 +1661,14 @@ button {
         background: linear-gradient(130deg, #2832d4, #103578, #2832d4);
         background: linear-gradient(130deg, #00a5b2, #103578);
         background: linear-gradient(130deg, #1a59c8, #20f5a9);
-        transition: transform 0.2s ease;
+        transition: transform 0.5s ease;
         animation: fadeInDown 0.3s linear alternate;
         width: 70%;
     }
 
+
     .header_main-menu_ul-li01 {
         padding: 10px;
-        /* transition: opacity 0.5s, transform 0.5s; */
         cursor: pointer;
     }
 
