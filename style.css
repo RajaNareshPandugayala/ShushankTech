@@ -524,6 +524,8 @@ a:hover {
     background: linear-gradient(135deg, #00a5b2, #1a59c880);
     background: linear-gradient(135deg, #20f5a9, #1a59c8);
     background: linear-gradient(135deg, #20f5a980, #1a59c880), url(box02_bg_image1bg.png);
+    background-position: center;
+    background-size: cover;
     /* background-color: #0a2023; */
 
 }
