@@ -238,7 +238,7 @@ a:hover {
     background: linear-gradient(215deg, #1a59c880, #1a59c8);
     background: linear-gradient(215deg, #103578, #2832d4, #103578);
     background: linear-gradient(215deg, #103578, #00a5b2);
-    background: linear-gradient(215deg, #20f5a9, #2832d4);
+    background: linear-gradient(215deg, #20f5a9, #1a59c8);
     /* color: black; */
 }
 
@@ -634,7 +634,7 @@ a:hover {
     background: linear-gradient(145deg, #9a34e7, #2832d4, #9a34e7 40%, #2832d4 30%, #2832d4, #2832d4, #ed7077);
     background: linear-gradient(145deg, #2832d4, #1a59c880 40%, #2832d4 30%, #1a59c880);
     background: linear-gradient(145deg, #1a59c880, #00a5b2 40%, #1a59c880 30%, #00a5b2);
-    background: linear-gradient(145deg, #2832d4, #20f5a9 40%, #2832d4 30%, #20f5a9);
+    background: linear-gradient(145deg, #1a59c8, #20f5a9 40%, #1a59c8 30%, #20f5a9);
 }
 
 .box03_boxs-contentA {
@@ -805,7 +805,7 @@ a:hover {
     background: linear-gradient(215deg, #ed7077, #2832d4, #9a34e7 40%, #2832d4 30%, #9a34e7);
     background: linear-gradient(215deg, #1a59c880, #2832d4 40%, #1a59c880 30%, #2832d4);
     background: linear-gradient(215deg, #00a5b2, #1a59c880 40%, #00a5b2 30%, #1a59c880);
-    background: linear-gradient(215deg, #20f5a9, #2832d4 40%, #20f5a9 30%, #2832d4);
+    background: linear-gradient(215deg, #20f5a9, #1a59c8 40%, #20f5a9 30%, #1a59c8);
 }
 
 .box05_boxs-contentA {
@@ -892,7 +892,7 @@ a:hover {
     background: linear-gradient(150deg, #9a34e7 10%, #2832d4, #2832d4, #9a34e7 85%);
     background: linear-gradient(150deg, #1a59c880, #2832d4, #1a59c880);
     background: linear-gradient(150deg, #00a5b2, #1a59c880, #00a5b2);
-    background: linear-gradient(150deg, #20f5a9, #2832d4, #20f5a9);
+    background: linear-gradient(150deg, #20f5a9, #1a59c8, #20f5a9);
 }
 
 .box06_boxs-content {
@@ -903,7 +903,7 @@ a:hover {
     background: linear-gradient(215deg, #1a59c880 40%, #2832d4 30%, #1a59c880);
     background: linear-gradient(215deg, #1a59c880 40%, #2832d4 30%, #1a59c880);
     background: linear-gradient(215deg, #00a5b2, #1a59c880, #00a5b2 40%, #1a59c880 30%, #00a5b2);
-    background: linear-gradient(215deg, #20f5a9, #2832d4, #20f5a9 40%, #2832d4 30%, #20f5a9);
+    background: linear-gradient(215deg, #20f5a9, #1a59c8, #20f5a9 40%, #1a59c8 30%, #20f5a9);
     border-radius: 0.25cm;
     gap: 20px;
     padding-left: 50px;
@@ -956,7 +956,7 @@ a:hover {
     background: linear-gradient(205deg, #9a34e7 10%, #2832d4, #9a34e7 85%);
     background: linear-gradient(205deg, #1a59c880, #2832d4, #1a59c880);
     background: linear-gradient(205deg, #00a5b2, #1a59c880, #00a5b2);
-    background: linear-gradient(205deg, #20f5a9 10%, #2832d4, #20f5a9 90%);
+    background: linear-gradient(205deg, #20f5a9 10%, #1a59c8, #20f5a9 90%);
     /* border: 1px solid red; */
 }
 
@@ -1274,7 +1274,7 @@ a:hover {
     background: linear-gradient(130deg, #ed7077, #2832d4, #9a34e7 40%, #2832d4 30%, #2832d4, #ed7077);
     background: linear-gradient(130deg, #2832d4, #1a59c880 40%, #2832d4 30%, #1a59c880);
     background: linear-gradient(130deg, #00a5b2, #1a59c880 40%, #00a5b2 30%, #1a59c880);
-    background: linear-gradient(130deg, #20f5a9, #2832d4 40%, #20f5a9 30%, #2832d4);
+    background: linear-gradient(130deg, #20f5a9, #1a59c8 40%, #20f5a9 30%, #1a59c8);
 }
 
 .box02_box_contactUs {
