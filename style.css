@@ -448,12 +448,6 @@ a:hover {
     font-size: 42px;
 }
 
-.box01_content_02span {
-    font-family: cursive;
-    font-style: italic;
-    font-weight: lighter;
-}
-
 .box01_content_03 {
     font-size: 20px;
 }
@@ -715,12 +709,6 @@ a:hover {
     font-size: 42px;
 }
 
-.box03_content_02span {
-    font-family: cursive;
-    font-style: italic;
-    font-weight: lighter;
-}
-
 .box03_content_03 {
     font-size: 20px;
 }
@@ -755,13 +743,6 @@ a:hover {
     width: 750px;
     /* border: 1px solid red; */
 }
-
-.box04_content_02span {
-    font-family: cursive;
-    font-style: italic;
-    font-weight: lighter;
-}
-
 
 .box04_boxs-content03A,
 .box04_boxs-content03B {
@@ -892,12 +873,6 @@ a:hover {
     font-size: 42px;
 }
 
-.box05_content_02span {
-    font-family: cursive;
-    font-style: italic;
-    font-weight: lighter;
-}
-
 .box05_content_03 {
     font-size: 20px;
 }
@@ -986,11 +961,6 @@ a:hover {
     font-size: 42px;
 }
 
-.box06_content_02span {
-    font-family: cursive;
-    font-style: italic;
-    font-weight: lighter;
-}
 
 .box06_content_03 {
     font-size: 20px;
@@ -1049,13 +1019,6 @@ a:hover {
 .box07_content_02 {
     font-weight: bold;
     font-size: 42px;
-}
-
-.box07_content_02span {
-    font-family: cursive;
-    font-style: italic;
-    font-weight: lighter;
-    width: 100%;
 }
 
 .box07_content_03 {
@@ -1407,11 +1370,6 @@ button {
     font-size: 42px;
 }
 
-.box02_right_contactUs_02span {
-    font-family: cursive;
-    font-style: italic;
-    font-weight: lighter;
-}
 
 .box02_right_contactUs_03 {
     display: flex;
