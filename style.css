@@ -565,9 +565,10 @@ a:hover {
 
 .box02_content_03 {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     gap: 40px;
+    /* height: 1200px; */
     width: 100%;
     flex-wrap: wrap;
     /* border: 1px solid green; */
@@ -575,15 +576,50 @@ a:hover {
 
 .box02_content_03a {
     background-color: white;
+    /* background: linear-gradient(135deg, #20f5a980, #1a59c880); */
     width: 365px;
     border-radius: 0.3cm;
     overflow: hidden;
     /* border: 1px solid red; */
 }
 
+
+.box02_content_03a1 {
+    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box01.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box02_content_03a2 {
+    background: linear-gradient(135deg, #00000080, #14aa0080), url(box02_bg_image_box02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.box02_content_03a3 {
+    background: linear-gradient(135deg, #00000080, #ffa50080), url(box02_bg_image_box03.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.box02_content_03a4 {
+    background: linear-gradient(135deg, #00000080, #ffff0080), url(box02_bg_image_box04.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.box02_content_03a00 {
+    position: relative;
+    top: 250px;
+}
+
 .box02_content_03a01 {
     padding: 40px 30px;
-    color: black;
+    height: 450px;
+    /* color: black; */
     /* border: 1px solid red; */
 }
 
@@ -655,8 +691,6 @@ a:hover {
 .box03 {
     align-items: start;
     justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 50px;
     /* gap: 50px; */
     /* flex-wrap: wrap; */
     /* background: linear-gradient(135deg, #7209d4 40%, #2832d4 30%, #00a5b2); */
@@ -668,7 +702,7 @@ a:hover {
 }
 
 .box03_boxs-contentA {
-    background-image: url(box03_bg_image_bg.jpeg);
+    background-image: url(box06_bg_image.jpeg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -690,7 +724,7 @@ a:hover {
     height: 180px;
     /* border: 1px solid red; */
     border-radius: 0.25cm;
-    margin: 400px 40px 60px auto;
+    margin: 300px 40px 60px auto;
 }
 
 .box03_boxs-contentB {
@@ -701,6 +735,7 @@ a:hover {
     width: 50%;
     /* padding-left: 50px; */
     padding-left: 50px;
+    padding-top: 100px;
 }
 
 .box03_boxs-contentB_child {
@@ -710,6 +745,8 @@ a:hover {
     align-items: start;
     gap: 20px;
     width: 550px;
+    padding-bottom: 50px;
+    /* border: 1px solid red; */
 }
 
 
@@ -830,7 +867,6 @@ a:hover {
     align-items: start;
     justify-content: space-between;
     /* flex-wrap: wrap; */
-    padding-top: 100px;
     background: linear-gradient(215deg, #ed7077, #2832d4, #9a34e7 40%, #2832d4 30%, #9a34e7);
     background: linear-gradient(215deg, #1a59c880, #2832d4 40%, #1a59c880 30%, #2832d4);
     background: linear-gradient(215deg, #00a5b2, #1a59c880 40%, #00a5b2 30%, #1a59c880);
@@ -845,10 +881,12 @@ a:hover {
     align-items: end;
     gap: 20px;
     width: 50%;
-    height: 630px;
+    /* height: 1000px; */
     /* padding-left: 50px; */
     padding-right: 50px;
     /* border: 1px solid orange; */
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .box05_boxs-contentA_child {
@@ -868,7 +906,7 @@ a:hover {
     align-items: end;
     justify-content: start;
     border-radius: 0.25cm 0 0 0.25cm;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     width: 50%;
 }
 
@@ -885,7 +923,7 @@ a:hover {
     height: 180px;
     /* border: 1px solid red; */
     border-radius: 0.25cm;
-    margin: 400px auto 60px 40px;
+    margin: 655px auto 60px 40px;
 }
 
 
@@ -909,16 +947,16 @@ a:hover {
     gap: 20px;
 }
 
-.box05_content_04A,
-.box05_content_04B {
+.box05_content_04_child {
     display: flex;
     gap: 15px;
 }
 
-.box05_content_04A img,
-.box05_content_04B img {
+.box05_content_04_child img {
     width: 25px;
     height: 25px;
+    border-radius: 50%;
+    /* background-color: red; */
 }
 
 /***********************************Box05_Css-End**********************************/
@@ -1323,7 +1361,6 @@ a:hover {
 .box02_box_contactUs {
     gap: 20px;
     align-items: start;
-    margin: 50px 0;
 }
 
 .box02_left_contactUs {
@@ -1380,6 +1417,7 @@ button {
     width: 650px;
     /* padding-left: 50px; */
     padding-left: 50px;
+    margin: 50px 0;
     /* border: 1px solid red; */
 }
 
@@ -1452,6 +1490,11 @@ button {
     /* * {
         border: 1px solid red;
     } */
+
+    .box02_content_03a00 {
+        position: relative;
+        top: 0px;
+    }
 
     .box01_boxs-contentA_child_left,
     .box01_boxs-contentA_child_right,
