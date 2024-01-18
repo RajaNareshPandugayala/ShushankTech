@@ -201,7 +201,7 @@ a:hover {
 
 .header_content {
     font-weight: bold;
-    font-size: 64px;
+    font-size: 42px;
 }
 
 /***********************************Common_box-End**********************************/
@@ -444,12 +444,11 @@ a:hover {
 }
 
 .box01_content_02 {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .box01_content_03 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .box01_content_04 {
@@ -485,8 +484,7 @@ a:hover {
 
 .box01_content_05A_span_a,
 .box01_content_05B_span_a {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 24px;
 }
 
 .box01_content_06 {
@@ -549,8 +547,7 @@ a:hover {
 }
 
 .box02_content_02A {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 24px;
     /* width: 680px; */
     /* border: 1px solid green; */
 }
@@ -568,8 +565,8 @@ a:hover {
 
 .box02_content_03 {
     display: flex;
-    align-items: start;
-    justify-content: space-between;
+    align-items: end;
+    justify-content: center;
     gap: 40px;
     width: 100%;
     flex-wrap: wrap;
@@ -587,12 +584,13 @@ a:hover {
 .box02_content_03a01 {
     padding: 40px 30px;
     color: black;
+    /* border: 1px solid red; */
 }
 
 .box02_content_03a01_A {
     font-weight: bold;
     display: flex;
-    font-size: 20px;
+    font-size: 24px;
     gap: 20px;
 }
 
@@ -716,12 +714,11 @@ a:hover {
 
 
 .box03_content_02 {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .box03_content_03 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /***********************************Box03_Css-End**********************************/
@@ -749,8 +746,7 @@ a:hover {
 }
 
 .box04_content_02 {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 36px;
     width: 750px;
     /* border: 1px solid red; */
 }
@@ -844,12 +840,15 @@ a:hover {
 
 .box05_boxs-contentA {
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: end;
     gap: 20px;
     width: 50%;
+    height: 630px;
     /* padding-left: 50px; */
     padding-right: 50px;
+    /* border: 1px solid orange; */
 }
 
 .box05_boxs-contentA_child {
@@ -859,10 +858,11 @@ a:hover {
     align-items: start;
     gap: 20px;
     width: 550px;
+    /* border: 1px solid orange; */
 }
 
 .box05_boxs-contentB {
-    background-image: url(box05_bg_image_bg.jpeg);
+    background-image: url(box03_bg_image_bg.jpeg);
     background-position: center;
     background-size: cover;
     align-items: end;
@@ -890,12 +890,11 @@ a:hover {
 
 
 .box05_content_02 {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .box05_content_03 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .box05_hr {
@@ -978,13 +977,12 @@ a:hover {
 
 
 .box06_content_02 {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 
 .box06_content_03 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /***********************************Box06_Css-End**********************************/
@@ -1038,8 +1036,7 @@ a:hover {
 }
 
 .box07_content_02 {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .box07_content_03 {
@@ -1387,8 +1384,7 @@ button {
 }
 
 .box02_right_contactUs_02 {
-    font-weight: bold;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 
@@ -1398,7 +1394,7 @@ button {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
@@ -1858,7 +1854,7 @@ button {
     .box06_content_02,
     .box07_content_02,
     .box02_right_contactUs_02 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .box02_right_contactUs_03A,
