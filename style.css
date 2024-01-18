@@ -1883,6 +1883,10 @@ button {
         border: 1px solid green;
     } */
 
+    .box_boxs-content {
+        padding: 0px 30px;
+    }
+
     .header_content {
         font-size: 30px;
     }
