@@ -591,21 +591,21 @@ a:hover {
 }
 
 .box02_content_03a2 {
-    background: linear-gradient(135deg, #00000080, #14aa0080), url(box02_bg_image_box02.jpg);
+    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box03.jpg);
     background-position: center;
     background-size: cover;
 }
 
 
 .box02_content_03a3 {
-    background: linear-gradient(135deg, #00000080, #ffa50080), url(box02_bg_image_box03.webp);
+    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box03.webp);
     background-position: center;
     background-size: cover;
 }
 
 
 .box02_content_03a4 {
-    background: linear-gradient(135deg, #00000080, #ffff0080), url(box02_bg_image_box04.jpg);
+    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box04.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -636,7 +636,7 @@ a:hover {
 }
 
 .box02_content_03a01_B {
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .box02_content_03a01_D {
