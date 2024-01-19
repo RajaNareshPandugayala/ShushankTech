@@ -701,6 +701,7 @@ a:hover {
     background: linear-gradient(135deg, #20f5a9, #1a59c8);
 }
 
+
 .box03_boxs-contentA {
     background-image: url(box06_bg_image.jpeg);
     background-position: center;
@@ -1496,6 +1497,14 @@ button {
         top: 0px;
     }
 
+    .box_boxs-content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0px 50px;
+        /* border: 1px solid green; */
+    }
+
     .box01_boxs-contentA_child_left,
     .box01_boxs-contentA_child_right,
     .box03_boxs-contentB,
@@ -1507,15 +1516,9 @@ button {
     .box02_left_contactUs,
     .box02_right_contactUs {
         width: 680px;
+
     }
 
-    .box_boxs-content {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 0px 50px;
-        /* border: 1px solid green; */
-    }
 
     .header_main-menu_ul {
         width: 100%;
@@ -1558,8 +1561,9 @@ button {
 
     .box03 {
         flex-wrap: wrap;
+        align-items: center;
         flex-direction: column;
-        gap: 30px;
+        gap: 50px;
     }
 
     .box03_boxs-contentB {
@@ -1578,11 +1582,9 @@ button {
         justify-content: center;
         gap: 30px;
         text-align: center;
+        /* border: 2px solid red; */
     }
 
-    .box05_boxs-contentA {
-        padding: 0;
-    }
 
     .box05_boxs-contentA_child {
         align-items: center;
@@ -1780,6 +1782,10 @@ button {
         padding: 0px 50px;
     }
 
+    .box05_boxs-contentA {
+        padding-top: 50px;
+    }
+
     .box06_boxs-contentA {
         padding: 20px;
     }
@@ -1792,9 +1798,15 @@ button {
 
 @media screen and (max-width: 610px) {
 
-    .box01_boxs-contentA {
+    .box01_boxs-contentA,
+    .box02_boxs-content {
         margin-top: 50px;
     }
+
+    .box02_content_01 {
+        text-align: center;
+    }
+
 
     .footer_box_content_list_hr {
         height: 210px;
@@ -1829,6 +1841,11 @@ button {
         border: 1px solid green;
     } */
 
+
+    .box_boxs-content {
+        padding: 0px 40px;
+    }
+
     .footer_box_content_list_hr {
         display: none;
     }
@@ -1848,10 +1865,6 @@ button {
     .box07_content_02,
     .box02_right_contactUs_02 {
         font-size: 28px;
-    }
-
-    .para {
-        font-size: 14px;
     }
 
     .box02_content_01 {
