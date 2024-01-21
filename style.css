@@ -32,20 +32,22 @@ a:hover {
 }
 
 /***********************loading_page.html-Start******************************/
+/***********************deleted-Start******************************/
 .leaf {
     position: absolute;
-    height: 25px;
-    width: 25px;
-    border-radius: 0.1cm;
-    /* border-radius: 50%; */
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
+    height: 25px;
+    width: 25px;
+    border-radius: 0.1cm;
+    /* border-radius: 50%; */
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     color: whitesmoke;
 }
 
@@ -60,71 +62,85 @@ a:hover {
 .yellow_leaf {
     background-color: yellow;
     animation: blow 4.95s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .orange_leaf {
     background-color: orange;
     animation: blow 4.9s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .darkorange_leaf {
     background-color: darkorange;
     animation: blow 4.85s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .red_leaf {
     background-color: red;
     animation: blow 4.8s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .darkred_leaf {
     background-color: darkred;
     animation: blow 4.75s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .green_leaf {
     background-color: green;
     animation: blow 4.7s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .darkgreen_leaf {
     background-color: darkgreen;
     animation: blow 4.65s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .violet_leaf {
     background-color: violet;
     animation: blow 4.6s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .darkviolet_leaf {
     background-color: darkviolet;
     animation: blow 4.55s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .blue_leaf {
     background-color: blue;
     animation: blow 4.5s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .darkblue_leaf {
     background-color: darkblue;
     animation: blow 4.45s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .indigo_leaf {
     background-color: indigo;
     animation: blow 4.4s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .purple_leaf {
     background-color: purple;
     animation: blow 4.35s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 .black_leaf {
     background-color: black;
     animation: blow 4.30s infinite linear;
+    /* animation: blow 5s infinite linear; */
 }
 
 
@@ -166,6 +182,37 @@ a:hover {
         transform: translateX(-100px) translateY(0) rotate(0);
     }
 }
+
+/***********************deleted-End******************************/
+
+
+.loader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-color: #ff0000 #00ff00 #0000ff orange;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
 
 /***********************loading_page.html-End******************************/
 /***********************************Common_box-Start**********************************/
