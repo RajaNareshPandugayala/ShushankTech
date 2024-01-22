@@ -638,21 +638,21 @@ a:hover {
 }
 
 .box02_content_03a2 {
-    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box03.jpg);
+    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box02a.webp);
     background-position: center;
     background-size: cover;
 }
 
 
 .box02_content_03a3 {
-    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box03.webp);
+    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box03a1.jpg);
     background-position: center;
     background-size: cover;
 }
 
 
 .box02_content_03a4 {
-    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box04.jpg);
+    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box05b.jpg);
     background-position: center;
     background-size: cover;
 }
