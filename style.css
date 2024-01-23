@@ -578,6 +578,8 @@ a:hover {
     background-position: center;
     background-size: cover;
     /* background-color: #0a2023; */
+    padding-top: 40px;
+    padding-bottom: 40px;
 
 }
 
@@ -594,7 +596,7 @@ a:hover {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    width: 550px;
+    width: 450px;
     padding-top: 100px;
     padding-bottom: 50px;
     /* border: 1px solid green; */
@@ -621,10 +623,10 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     /* height: 1200px; */
     flex-wrap: wrap;
-    width: 620px;
+    width: 720px;
     /* border: 1px solid green; */
 }
 
@@ -989,6 +991,7 @@ a:hover {
 
 .box05_content_03 {
     font-size: 24px;
+    /* border: 1px solid red; */
 }
 
 .box05_hr {
@@ -1544,6 +1547,10 @@ button {
         border: 1px solid red;
     } */
 
+    .box03_content_03 {
+        text-align: start;
+    }
+
     .box02_content_03a00 {
         position: relative;
         top: 0px;
@@ -1608,6 +1615,10 @@ button {
 
     }
 
+    .box02_content_02A {
+        text-align: start;
+    }
+
     .box02_content_03 {
         flex-direction: row;
         justify-content: center;
@@ -1639,10 +1650,15 @@ button {
         /* border: 2px solid red; */
     }
 
+    .box05_content_03 {
+        text-align: start;
+    }
+
 
     .box05_boxs-contentA_child {
-        align-items: center;
+        text-align: start;
         width: 100%;
+        /* border: 2px solid red; */
     }
 
     .box06_boxs-contentA {
@@ -1875,7 +1891,6 @@ button {
     .box01_content_02,
     .box01_content_05A_span_a,
     .box01_content_05B_span_a,
-    .box02_content_02A,
     .box03_content_02,
     .box04_content_02,
     .box05_content_02,
@@ -1885,7 +1900,8 @@ button {
         font-size: 32px;
     }
 
-    .para {
+    .para,
+    .box02_content_02A {
         font-size: 16px;
     }
 }
@@ -1911,7 +1927,6 @@ button {
     .box01_content_02,
     .box01_content_05A_span_a,
     .box01_content_05B_span_a,
-    .box02_content_02A,
     .box03_content_02,
     .box04_content_02,
     .box05_content_02,
@@ -1969,7 +1984,6 @@ button {
     .box01_content_02,
     .box01_content_05A_span_a,
     .box01_content_05B_span_a,
-    .box02_content_02A,
     .box03_content_02,
     .box04_content_02,
     .box05_content_02,
