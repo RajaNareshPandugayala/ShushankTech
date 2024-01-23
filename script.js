@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-const box01 = document.querySelector('.box01');
+const box01 = document.querySelector('.power');
 const buttons = document.querySelectorAll('.span_button');
 const arrows = document.querySelectorAll('.arrow_button');
 let currentImageIndex = 1;
