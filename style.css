@@ -194,8 +194,7 @@ a:hover {
     /* border-color: #ff0000 #00ff00 #0000ff orange; */
     width: 100px;
     height: 100px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    /* animation: spin 2s linear infinite; */
 }
 
 @keyframes spin {
