@@ -1270,6 +1270,14 @@ a:hover {
     color: #e74c3c;
 }
 
+.footer_box_list_hyperlink00 {
+    color: orange;
+}
+
+.footer_box_list_hyperlink00:hover {
+    cursor: text;
+}
+
 .footer_box_content1_images img {
     width: 35px;
 }
@@ -1406,12 +1414,14 @@ a:hover {
 /***********************************box02_contactUs-Start**********************************/
 .box02_contactUs {
     align-items: start;
-
+    padding-top: 30px;
+    padding-bottom: 30px;
     background: linear-gradient(130deg, #ed7077, #2832d4, #9a34e7 40%, #2832d4 30%, #2832d4, #ed7077);
     background: linear-gradient(130deg, #2832d4, #1a59c880 40%, #2832d4 30%, #1a59c880);
     background: linear-gradient(130deg, #00a5b2, #1a59c880 40%, #00a5b2 30%, #1a59c880);
     background: linear-gradient(130deg, #20f5a9, #1a59c8 40%, #20f5a9 30%, #1a59c8);
     background: linear-gradient(135deg, #20f5a9, #1a59c8);
+    /* border: 1px solid red; */
 }
 
 .box02_box_contactUs {
@@ -1656,9 +1666,13 @@ button {
 
 
     .box05_boxs-contentA_child {
-        text-align: start;
+        text-align: center;
         width: 100%;
         /* border: 2px solid red; */
+    }
+
+    .box05_boxs-contentA_child00 {
+        text-align: start;
     }
 
     .box06_boxs-contentA {
@@ -1712,6 +1726,7 @@ button {
 
     .box02_right_contactUs_03 {
         justify-content: center;
+        text-align: start;
         gap: 30px;
     }
 
