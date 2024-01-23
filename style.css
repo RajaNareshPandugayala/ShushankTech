@@ -27,10 +27,6 @@ a:hover {
     font-weight: bold;
 }
 
-.para {
-    line-height: 30px;
-}
-
 /***********************loading_page.html-Start******************************/
 /***********************deleted-Start******************************/
 .leaf {
@@ -193,11 +189,11 @@ a:hover {
     right: 0;
     left: 0;
     margin: auto;
-    border: 16px solid #f3f3f3;
+    /* border: 16px solid #f3f3f3; */
     border-radius: 50%;
-    border-color: #ff0000 #00ff00 #0000ff orange;
-    width: 120px;
-    height: 120px;
+    /* border-color: #ff0000 #00ff00 #0000ff orange; */
+    width: 100px;
+    height: 100px;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -210,6 +206,15 @@ a:hover {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.loader img {
+    border-radius: 50%;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 500px #0000ff;
+    /* background-color: #b6b6fc; */
 }
 
 
@@ -426,7 +431,7 @@ a:hover {
 /***********************************Box01_Css-Start**********************************/
 .box01 {
     /* background-image: url(box01_bg_image3.jpg); */
-    background-image: linear-gradient(to bottom, transparent, #000000), url(box01_bg_image1.jpg);
+    background-image: linear-gradient(to bottom, transparent, #000000), url(box01_bg_image1.webp);
     background-position: center;
     background-size: cover;
     flex-direction: column;
@@ -569,6 +574,7 @@ a:hover {
     background: linear-gradient(135deg, #00a5b2, #1a59c880);
     background: linear-gradient(135deg, #20f5a9, #1a59c8);
     background: linear-gradient(135deg, #20f5a980, #1a59c880), url(box02_bg_image1bg.png);
+    background: linear-gradient(135deg, #20f5a9, #1a59c8);
     background-position: center;
     background-size: cover;
     /* background-color: #0a2023; */
@@ -576,11 +582,10 @@ a:hover {
 }
 
 .box02_boxs-content {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: start;
-    margin-top: 150px;
-    margin-bottom: 50px;
     gap: 50px;
+    /* border: 1px solid red; */
 }
 
 .box02_content_02 {
@@ -588,8 +593,10 @@ a:hover {
     align-items: start;
     justify-content: space-between;
     gap: 20px;
-    width: 100%;
     flex-wrap: wrap;
+    width: 550px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     /* border: 1px solid green; */
 }
 
@@ -614,17 +621,17 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     /* height: 1200px; */
-    width: 100%;
     flex-wrap: wrap;
+    width: 620px;
     /* border: 1px solid green; */
 }
 
 .box02_content_03a {
     background-color: white;
     /* background: linear-gradient(135deg, #20f5a980, #1a59c880); */
-    width: 365px;
+    width: 290px;
     border-radius: 0.3cm;
     overflow: hidden;
     /* border: 1px solid red; */
@@ -632,40 +639,41 @@ a:hover {
 
 
 .box02_content_03a1 {
-    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box01.webp);
+    background: linear-gradient(300deg, #00000080, #adcbff80), url(box02_bg_image_box01.webp);
     background-position: center;
     background-size: cover;
 }
 
 .box02_content_03a2 {
-    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box02a.webp);
+    background: linear-gradient(300deg, #00000080, #adcbff80), url(box02_bg_image_box02a.webp);
     background-position: center;
     background-size: cover;
 }
 
 
 .box02_content_03a3 {
-    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box03a1.jpg);
+    background: linear-gradient(135deg, #00000080, #adcbff80), url(box02_bg_image_box03a1a.webp);
     background-position: center;
     background-size: cover;
 }
 
 
 .box02_content_03a4 {
-    background: linear-gradient(135deg, #00000080, #1a59c880), url(box02_bg_image_box05b.jpg);
+    background: linear-gradient(300deg, #00000080, #adcbff80), url(box02_bg_image_box05ba.webp);
+    /* background: url(box02_bg_image_box05ba.jpg); */
     background-position: center;
     background-size: cover;
 }
 
 
-.box02_content_03a00 {
+/* .box02_content_03a00 {
     position: relative;
     top: 250px;
-}
+} */
 
 .box02_content_03a01 {
-    padding: 40px 30px;
-    height: 450px;
+    padding: 25px;
+    height: 350px;
     /* color: black; */
     /* border: 1px solid red; */
 }
@@ -750,7 +758,7 @@ a:hover {
 
 
 .box03_boxs-contentA {
-    background-image: url(box06_bg_image.jpeg);
+    background-image: url(box02_bg_image1bg.webp);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -948,7 +956,7 @@ a:hover {
 }
 
 .box05_boxs-contentB {
-    background-image: url(box03_bg_image_bg.jpeg);
+    background-image: url(box03_bg_image_bg.webp);
     background-position: center;
     background-size: cover;
     align-items: end;
@@ -971,7 +979,7 @@ a:hover {
     height: 180px;
     /* border: 1px solid red; */
     border-radius: 0.25cm;
-    margin: 655px auto 60px 40px;
+    margin: 530px auto 60px 40px;
 }
 
 
@@ -993,18 +1001,15 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: start;
 }
 
 .box05_content_04_child {
     display: flex;
+    flex-direction: column;
+    padding-left: 30px;
     gap: 15px;
-}
-
-.box05_content_04_child img {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    /* background-color: red; */
+    font-weight: bold;
 }
 
 /***********************************Box05_Css-End**********************************/
@@ -1355,7 +1360,7 @@ a:hover {
     overflow: hidden;
     display: flex;
     text-align: center;
-    background-image: url(box06_bg_image.jpeg);
+    background-image: url(box06_bg_image.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1599,12 +1604,14 @@ button {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-bottom: 50px;
+
     }
 
     .box02_content_03 {
+        flex-direction: row;
         justify-content: center;
     }
-
 
     .box03 {
         flex-wrap: wrap;
@@ -1918,6 +1925,14 @@ button {
         text-align: center;
     }
 
+    .box02_content_03 {
+        padding: 0px 10px;
+    }
+
+    .box02_content_03a {
+        width: 100%;
+    }
+
     .get_started_button00 {
         display: none;
     }
@@ -1992,6 +2007,10 @@ button {
     .box02_right_contactUs_03A,
     .box02_right_contactUs_03B {
         padding: 20px 10px;
+    }
+
+    .box02_content_03 {
+        padding: 0px;
     }
 
 }
