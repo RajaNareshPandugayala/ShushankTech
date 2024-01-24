@@ -1260,6 +1260,8 @@ a:hover {
 
 .footer_box_content1_images img {
     width: 35px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 .footer_box_content1_images img:hover {
